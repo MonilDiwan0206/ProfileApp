@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ProfileApp</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="log_in_to_your_account">Log in to your Account</string>
+    <string name="need_a_new_account">Need a new Account?</string>
+    <string name="name">Name</string>
+    <string name="create_account">Create Account</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="send_verification_sms">Send Verification SMS</string>
+</resources>

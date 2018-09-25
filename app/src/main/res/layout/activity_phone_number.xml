@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background"
+    tools:context=".PhoneNumberActivity">
+
+    <EditText
+            android:id="@+id/pNumber"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="214dp"
+            android:background="@drawable/textbg"
+            android:ems="10"
+            android:hint="@string/phone_number"
+            android:inputType="phone"
+            android:padding="15dp"
+            android:visibility="visible" android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/pButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="145dp"
+        android:background="@drawable/textbg"
+        android:text="@string/send_verification_sms"
+        android:textColor="@color/colorPrimaryDark"
+        android:visibility="visible" />
+
+
+
+    <EditText
+        android:id="@+id/vCode"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/pNumber"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/textbg"
+        android:ems="10"
+        android:hint="Enter Verification Code"
+        android:inputType="textPersonName"
+        android:padding="15dp"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/vButton"
+        android:layout_width="300dp"
+        android:enabled="false"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="145dp"
+        android:background="@drawable/textbg"
+        android:text="Verify Code"
+        android:visibility="invisible"
+        android:textColor="@color/colorPrimaryDark"/>
+    <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text=""
+            android:hint="@string/name"
+            android:background="@drawable/textbg"
+            android:padding="15dp"
+            android:ems="10"
+            android:id="@+id/mName"
+            android:layout_centerHorizontal="true" android:layout_alignParentTop="true"
+            android:layout_marginTop="117dp"/>
+
+
+</RelativeLayout>

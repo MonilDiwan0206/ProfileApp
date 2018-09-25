@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/mEmail"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="188dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/textbg"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:text=""
+        android:textColor="@color/colorPrimaryDark" />
+
+    <EditText
+        android:id="@+id/mPass"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textbg"
+        android:padding="15dp"
+        android:layout_below="@+id/mEmail"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/password"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/mLogin"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="109dp"
+        android:background="@drawable/textbg"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/log_in_to_your_account" />
+
+    <Button
+        android:id="@+id/mRegister"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="36dp"
+        android:padding="15dp"
+        android:textColor="@color/colorwhite"
+        android:background="@drawable/trans_back"
+        android:text="@string/need_a_new_account" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="108dp"
+        android:textColor="@color/colorwhite"
+        android:textSize="30dp"
+        android:text="Welcome to Profile App" />
+
+
+    <!--<com.google.android.gms.common.SignInButton-->
+        <!--android:id="@+id/gSignIn"-->
+        <!--android:layout_width="300dp"-->
+        <!--android:padding="15dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginBottom="166dp"></com.google.android.gms.common.SignInButton>-->
+
+
+
+</RelativeLayout>

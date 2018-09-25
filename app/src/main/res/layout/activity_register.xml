@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:id="@+id/dName"
+        android:layout_marginBottom="5dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="219dp"
+        android:background="@drawable/textbg"
+        android:ems="10"
+        android:layout_below="@id/pImage"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        android:padding="15dp"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/dEmail"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textbg"
+        android:padding="15dp"
+        android:layout_below="@+id/dName"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="5dp"
+        android:layout_centerHorizontal="true"/>
+
+
+
+    <EditText
+        android:id="@+id/dPass"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textbg"
+        android:padding="15dp"
+        android:layout_below="@+id/dEmail"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/password"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/mRegister"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="93dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@drawable/textbg"
+        android:text="@string/create_account" />
+
+    <Button
+        android:id="@+id/mLogin"
+        android:layout_width="300dp"
+        android:background="@drawable/trans_back"
+        android:textColor="@color/colorwhite"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp"
+        android:text="Back to Login Page" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/pImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
+        android:src="@mipmap/defpic" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:textSize="25dp"
+        android:text="Create a New Account"
+        android:textColor="@color/colorwhite" />
+
+</RelativeLayout>
